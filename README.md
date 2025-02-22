@@ -1,5 +1,6 @@
 # HolyFetch
 # Fetch to more!
+![1 Screen](https://github.com/wholos/HolyFetch/blob/main/holyfetch.png)
 
 How to Install!?
 ``` bash
