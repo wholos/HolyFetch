@@ -1,5 +1,5 @@
 # HolyFetch
-Fetch to more!
+# Fetch to more!
 
 How to Install!?
 ``` bash
