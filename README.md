@@ -4,10 +4,10 @@
 
 How to Install!?
 ``` bash
-sudo pacman -S git clang
+sudo pacman -S git clang make
 git clone https://github.com/wholos/HolyFetch
 cd HolyFetch/
-clang main.c -o main.out
+make all
 sudo cp main.out /usr/local/bin/holyfetch
 ```
 Ready!
