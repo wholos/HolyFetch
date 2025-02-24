@@ -41,12 +41,17 @@ const char* get_shell_name() {
 
 int main() {
     struct utsname sysinfo;
-    if (uname(&sysinfo) == 0) {
+        if (uname(&sysinfo) == 0) { 
 	    char *user = getenv("USER");
-        printf("%s@%s\n", user, sysinfo.nodename);
+		printf(" ### ");
+	    printf("%s@%s\n", user, sysinfo.nodename);
+		printf("#    ");
 		printf("-------------\n");
-	    get_distro_name();
-        printf("Kernel: %s\n", sysinfo.release);
+		printf("#    ");
+		get_distro_name();
+		printf("#    ");
+		printf("Kernel: %s\n", sysinfo.release);
+		printf(" ### ");
 		printf("Shell: %s\n", get_shell_name());
   }
   return 0;
