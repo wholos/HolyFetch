@@ -4,7 +4,7 @@
 
 How to Install!?
 ``` bash
-sudo pacman -S git clang make
+sudo pacman -S git tcc make
 git clone https://github.com/wholos/HolyFetch
 cd HolyFetch/
 make all
