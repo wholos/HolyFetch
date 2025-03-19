@@ -7,8 +7,7 @@ How to Install!?
 sudo pacman -S git tcc make
 git clone https://github.com/wholos/HolyFetch
 cd HolyFetch/
-make all
-sudo cp main.out /usr/local/bin/holyfetch
+make install
 ```
 Ready!
 
