@@ -1,8 +1,6 @@
-CXX = clang
+CXX = tcc
 
-all: holyfetch
-
-holyfetch: main.c
+all: main.c
 	@echo "Build..."
 	@$(CXX) main.c -o main.out
 
