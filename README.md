@@ -6,6 +6,11 @@ Fetch to more!
 #
 ![1 Screen](https://github.com/wholos/HolyFetch/blob/main/holyfetch.png)
 
+UPD:
+```
+28.03.25 - Added config system
+```
+
 How to Install!?
 ``` bash
 sudo pacman -S git tcc make
